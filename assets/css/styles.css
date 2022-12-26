@@ -315,6 +315,12 @@ td{
 
 @media only screen and (min-width: 768px){
 
+    #body_container{
+
+        height: 115vh;
+
+    }
+
     .filler_container{
 
         flex-direction: row;
@@ -364,6 +370,13 @@ td{
 
 @media only screen and (min-width: 1250px){
 
+    #body_container{
+
+        height: 135vh;
+
+    }
+ 
+ 
     .filler_container{
 
         flex-direction: row;
