@@ -164,7 +164,7 @@ a:link, a:visited, a:active{
     
     background-color: grey;
     width: 200px;
-    height: 115px;
+    height: 120px;
     border-radius: 10px;
     
 }
@@ -222,6 +222,8 @@ table{
 td{
     color: white;
 }
+
+
 /*Fin Contenido Principal*/
 
 
@@ -267,10 +269,7 @@ td{
 /*Media Query*/
 @media only screen and (min-width: 375px){
 
-    .filler_container p{
-        font-size: 24px;
-    }
-
+    
     .header{
         padding-left: 100px;
     }
@@ -297,11 +296,22 @@ td{
 
     }
 
+    .main_container p{
+        font-size: 18px;
+    }
+
+    
 
     .main_filler p{
 
         padding-bottom: 60px;
 
+    }
+
+    .filler_container_item{
+    
+        height: 110px;
+        
     }
 
     .table{
@@ -321,15 +331,6 @@ td{
 
     }
 
-    .filler_container{
-
-        flex-direction: row;
-    }
-
-    .filler_container p{
-        font-size: 3vw;
-    }
-    
     .header{
 
         flex-direction: column;
@@ -352,18 +353,45 @@ td{
 
     }
 
+    .main_container p{
+        font-size: 30px;
+    }
+
+    .main_container h2{
+     
+        font-size: 40px;
+        
+    }
+
+    .filler_container{
+
+        flex-direction: row;
+    }
+
+    .filler_container p{
+        font-size: 3vw;
+    }
+
+    .filler_container_item{
+    
+        height: 110px;
+        width: 200px;
+    }
+    
+    .form{
+        font-size: 20px;
+    }
+
     input{
 
         max-width: 300px;
         max-height: 50px;
-        font-size: 8px;
     }
 
     textarea{
 
         max-width: 500px;
         max-height: 200px;
-        font-size: 8px;
     }
 
 }
@@ -375,7 +403,23 @@ td{
         height: 135vh;
 
     }
+    
+    .header{
+
+        flex-direction: column;
+
+    }
  
+    .main_container h2{
+     
+        font-size: 68px;
+        
+    }
+
+    .main_container p{
+        font-size: 48px;
+    }
+    
  
     .filler_container{
 
@@ -387,24 +431,38 @@ td{
     
     }
 
-    .header{
+    .filler_container_item{
+    
+        height: 150px;
+        width: 240px;
+    }
 
-        flex-direction: column;
+    th{
 
+        font-size: 42px;
+
+    }
+
+    td{
+
+        font-size: 32px;
+
+    }
+
+    .form{
+        font-size: 20px;
     }
 
     input{
 
         max-width: 700px;
         max-height: 100px;
-        font-size: 24px;
     }
 
     textarea{
 
         max-width: 800px;
         max-height: 200px;
-        font-size: 24px;
     }
     
 }
